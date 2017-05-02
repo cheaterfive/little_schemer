@@ -7,9 +7,8 @@
       (cond
        ((eq? (car lat) old)
 	(cons old
-	      (cons new (insertr new
-				 old
-				 (cdr lat)))))
+	      (cons new
+		    (cdr lat))))
        (else (cons (car lat)
 		   (insertr new
 			    old
