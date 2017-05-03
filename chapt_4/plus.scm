@@ -5,7 +5,7 @@
   (lambda (x y)
     (cond
      ((zero? y) x)
-     (else (plus (add1 x) (sub1 y))))))
+     (else (add1 (plus x (sub1 y)))))))
 
 (define (main args)
   (print (eq? 9 (plus 4 5)))
