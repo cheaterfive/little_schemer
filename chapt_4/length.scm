@@ -1,7 +1,3 @@
-(load "minus.scm")
-(load "add1.scm")
-(load "lt.scm")
-
 
 (define length
   (lambda (lat)
