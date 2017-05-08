@@ -12,4 +12,7 @@
 
 (define (main args)
   (print (equal? #t (eqan 3 3)))
+  (print (equal? #f (eqan 4 3)))
+  (print (equal? #f (eqan a 3)))
+  (print (equal? #t (eqan a a)))
   )
