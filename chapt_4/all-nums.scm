@@ -12,7 +12,6 @@
   )
 
 (define (main args)
-  ;(print (all-nums '(6 3 hotdog)))
   (print (equal? '(6 3) (all-nums '(6 3 hotdog))))
   (print (equal? '(6 3) (all-nums '(6 top 3 hotdog))))
   (print (equal? '(6) (all-nums '(6))))
