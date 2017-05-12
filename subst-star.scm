@@ -1,4 +1,4 @@
-(load "/Users/Richard/Documents/Programming/chicken/code/little_schemer/chapt_1_to_3/atom.scm")
+(load "atom.scm")
 
 					;
 ;;Build a list from lat with new after old
